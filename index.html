@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080706" />
+  <meta name="description" content="Fit House Academia em Anita Garibaldi. Musculação, saúde, performance, preparação de atletas e loja de suplementos." />
+  <title>Fit House Academia | Saúde e campeões em Anita Garibaldi</title>
+  <link rel="icon" type="image/png" href="assets/logo-fit-house.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Fit House - início">
+        <img src="assets/logo-fit-house.png" alt="Logo Fit House Academia" />
+        <span>
+          <strong>FIT HOUSE</strong>
+          <small>ANITA GARIBALDI</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#academia">A academia</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#conquistas">Conquistas</a>
+        <a href="#loja">Loja</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="button button--small button--primary open-visit" type="button">
+        Agendar visita
+        <span aria-hidden="true">↗</span>
+      </button>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegação móvel">
+      <a href="#academia">A academia</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#conquistas">Conquistas</a>
+      <a href="#loja">Loja</a>
+      <a href="#contato">Contato</a>
+      <button class="button button--primary open-visit" type="button">Agendar uma visita</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-label="Apresentação da Fit House">
+      <video
+        id="heroVideo"
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster="assets/hero-poster.jpg"
+      >
+        <source src="assets/hero-fit-house.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="hero-kicker reveal">
+          <span class="status-dot"></span>
+          Academia de referência em Anita Garibaldi
+        </div>
+        <h1 class="reveal reveal-delay-1">
+          Saúde para todos.<br />
+          <span>Estrutura para campeões.</span>
+        </h1>
+        <p class="hero-copy reveal reveal-delay-2">
+          Um espaço feito para transformar rotinas, fortalecer pessoas e preparar atletas que levam a musculação a outro nível.
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <button class="button button--primary button--large open-visit" type="button">
+            Quero conhecer a Fit House
+            <span aria-hidden="true">↗</span>
+          </button>
+          <a class="button button--ghost button--large" href="#academia">
+            Explorar a academia
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="container hero-bottom-inner">
+          <div class="hero-location">
+            <span class="icon-pin" aria-hidden="true"></span>
+            Rua José Pagno, 84 · Anita Garibaldi — SC
+          </div>
+          <div class="hero-scroll">
+            <span>Role para descobrir</span>
+            <i aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--intro" id="academia">
+      <div class="container intro-grid">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A Fit House</span>
+          <h2>Uma academia que transforma mais do que o físico.</h2>
+        </div>
+        <div class="intro-copy reveal reveal-delay-1">
+          <p>
+            A Fit House nasceu em Anita Garibaldi com uma proposta clara: oferecer um espaço de musculação onde cada aluno seja recebido, orientado e incentivado a superar seus próprios limites.
+          </p>
+          <p>
+            Aqui, saúde e alto desempenho caminham juntos. A mesma estrutura que ajuda alguém a começar também prepara atletas para subir no palco e representar a academia em campeonatos.
+          </p>
+          <a class="text-link" href="#contato">Conheça nosso espaço <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--team" id="equipe">
+      <div class="container team-grid">
+        <div class="team-media reveal">
+          <img src="assets/equipe-fit-house.jpg" alt="Equipe e atletas da Fit House em evento de fisiculturismo" loading="lazy" />
+          <div class="team-badge">
+            <span>Responsável</span>
+            <strong>João Marcelo</strong>
+          </div>
+        </div>
+
+        <div class="team-content reveal reveal-delay-1">
+          <span class="eyebrow">Professores e preparação</span>
+          <h2>Treine com quem vive o esporte todos os dias.</h2>
+          <p>
+            Sob a responsabilidade de <strong>João Marcelo</strong>, a Fit House reúne profissionais comprometidos em acompanhar a execução, orientar a evolução e manter cada aluno no caminho certo.
+          </p>
+          <div class="team-points">
+            <div><span>01</span><p><strong>Orientação próxima</strong><small>Correção de movimentos e apoio durante o treino.</small></p></div>
+            <div><span>02</span><p><strong>Visão individual</strong><small>Objetivos diferentes pedem estratégias diferentes.</small></p></div>
+            <div><span>03</span><p><strong>Experiência competitiva</strong><small>Conhecimento aplicado também à preparação de atletas.</small></p></div>
+          </div>
+          <button class="button button--outline open-visit" type="button">Conversar com a equipe <span>↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--champions" id="conquistas">
+      <div class="champion-glow" aria-hidden="true"></div>
+      <div class="container champion-heading reveal">
+        <span class="eyebrow">Conquistas Fit House</span>
+        <h2>Campeões não aparecem por acaso. <span>Eles são construídos.</span></h2>
+        <p>
+          Os troféus representam muito mais do que uma colocação: são resultado de treino, disciplina, acompanhamento e uma equipe que acredita no processo.
+        </p>
+      </div>
+
+      <div class="container champion-showcase">
+        <div class="trophy-card reveal">
+          <img src="assets/trofeus-fit-house.jpg" alt="Troféus conquistados por atletas ligados à Fit House" loading="lazy" />
+          <div class="image-caption">
+            <span>Histórias de dedicação</span>
+            <strong>Resultados que ficam na memória</strong>
+          </div>
+        </div>
+        <div class="champion-panel reveal reveal-delay-1">
+          <span class="champion-number">02</span>
+          <h3>Do treino diário ao palco.</h3>
+          <p>
+            A cultura da Fit House incentiva cada pessoa a buscar sua melhor versão. Para alguns, isso significa mais saúde. Para outros, significa competir — e conquistar.
+          </p>
+          <ul>
+            <li><span>✓</span> Ambiente de alta motivação</li>
+            <li><span>✓</span> Acompanhamento técnico</li>
+            <li><span>✓</span> Cultura de disciplina</li>
+            <li><span>✓</span> Preparação focada em performance</li>
+          </ul>
+          <a class="text-link text-link--light" href="#contato">Comece sua história <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--store" id="loja">
+      <div class="container store-heading">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Loja Fit House</span>
+          <h2>Tudo para o seu desempenho, sem sair da academia.</h2>
+        </div>
+        <p class="reveal reveal-delay-1">
+          Encontre suplementos, acessórios e itens selecionados para complementar sua rotina com praticidade e confiança.
+        </p>
+      </div>
+
+      <div class="container store-layout">
+        <button class="gallery-card gallery-card--large reveal" data-gallery="assets/loja-fit-house.jpg" aria-label="Ampliar imagem da loja Fit House">
+          <img src="assets/loja-fit-house.jpg" alt="Loja de suplementos e acessórios dentro da Fit House" loading="lazy" />
+          <span class="gallery-label"><small>Dentro da Fit House</small><strong>Loja completa</strong></span>
+          <i aria-hidden="true">＋</i>
+        </button>
+
+        <div class="store-products">
+          <button class="gallery-card reveal reveal-delay-1" data-gallery="assets/whey-integralmedica.jpg" aria-label="Ampliar imagem de whey protein">
+            <img src="assets/whey-integralmedica.jpg" alt="Whey protein vendido na loja Fit House" loading="lazy" />
+            <span class="gallery-label"><small>Suplementação</small><strong>Whey protein</strong></span>
+            <i aria-hidden="true">＋</i>
+          </button>
+          <button class="gallery-card reveal reveal-delay-2" data-gallery="assets/creatina-integralmedica.jpg" aria-label="Ampliar imagem de creatina">
+            <img src="assets/creatina-integralmedica.jpg" alt="Creatina vendida na loja Fit House" loading="lazy" />
+            <span class="gallery-label"><small>Performance</small><strong>Creatina</strong></span>
+            <i aria-hidden="true">＋</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container product-row">
+        <button class="product-mini reveal" data-gallery="assets/dark-whey.jpg">
+          <img src="assets/dark-whey.jpg" alt="Dark Whey na loja Fit House" loading="lazy" />
+          <span><small>Variedade</small><strong>Proteínas</strong></span>
+        </button>
+        <button class="product-mini reveal reveal-delay-1" data-gallery="assets/coqueteleira.jpg">
+          <img src="assets/coqueteleira.jpg" alt="Coqueteleira disponível na Fit House" loading="lazy" />
+          <span><small>Acessórios</small><strong>Coqueteleiras</strong></span>
+        </button>
+        <div class="store-cta reveal reveal-delay-2">
+          <span class="eyebrow">Consulte disponibilidade</span>
+          <h3>Quer saber quais produtos estão disponíveis hoje?</h3>
+          <a class="button button--primary" target="_blank" rel="noopener" href="https://wa.me/5549998060286?text=Olá%20Fit%20House!%20Gostaria%20de%20saber%20quais%20produtos%20estão%20disponíveis%20na%20loja.">Falar com a loja <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--journey">
+      <div class="container journey-grid">
+        <div class="journey-copy reveal">
+          <span class="eyebrow">Sua evolução começa aqui</span>
+          <h2>Um processo simples. Uma mudança que acompanha você.</h2>
+          <p>Entre, seja orientado e construa uma rotina capaz de transformar sua saúde e sua confiança.</p>
+          <button class="button button--primary open-visit" type="button">Agendar meu primeiro contato <span>↗</span></button>
+        </div>
+        <div class="journey-steps">
+          <article class="journey-step reveal"><span>01</span><div><strong>Conheça a academia</strong><p>Visite a Fit House, veja a estrutura e converse com nossa equipe.</p></div></article>
+          <article class="journey-step reveal reveal-delay-1"><span>02</span><div><strong>Defina seu objetivo</strong><p>Saúde, força, estética ou competição: o caminho começa com clareza.</p></div></article>
+          <article class="journey-step reveal reveal-delay-2"><span>03</span><div><strong>Treine com consistência</strong><p>Conte com acompanhamento e um ambiente que mantém você motivado.</p></div></article>
+          <article class="journey-step reveal reveal-delay-3"><span>04</span><div><strong>Transforme resultados em hábito</strong><p>Mais disposição, evolução visível e uma nova relação com o treino.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contato">
+      <div class="container contact-heading reveal">
+        <span class="eyebrow">Venha conhecer</span>
+        <h2>A sua próxima evolução pode começar hoje.</h2>
+      </div>
+
+      <div class="container contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-logo"><img src="assets/logo-fit-house.png" alt="Fit House Academia" /></div>
+          <h3>Fit House Academia</h3>
+          <p>Rua José Pagno, nº 84<br />Anita Garibaldi, Santa Catarina<br />CEP 88590-000</p>
+          <div class="contact-links">
+            <a href="https://wa.me/5549998060286" target="_blank" rel="noopener"><span>WhatsApp</span><strong>(49) 99806-0286</strong><i>↗</i></a>
+            <a href="https://instagram.com/acadfithouse" target="_blank" rel="noopener"><span>Instagram</span><strong>@acadfithouse</strong><i>↗</i></a>
+          </div>
+          <button class="button button--primary open-visit" type="button">Agendar uma visita <span>↗</span></button>
+        </div>
+
+        <div class="map-card reveal reveal-delay-1">
+          <iframe
+            title="Localização da Fit House em Anita Garibaldi"
+            src="https://www.google.com/maps?q=Rua%20Jos%C3%A9%20Pagno%2084%2C%20Anita%20Garibaldi%2C%20SC%2C%2088590-000&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+          <a class="map-route" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rua%20Jos%C3%A9%20Pagno%2084%2C%20Anita%20Garibaldi%2C%20SC%2C%2088590-000">
+            Abrir rota no Maps <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container final-cta-inner reveal">
+        <div>
+          <span class="eyebrow">FIT HOUSE · ANITA GARIBALDI</span>
+          <h2>Não espere a motivação chegar.<br /><span>Crie uma rotina que transforma.</span></h2>
+        </div>
+        <button class="button button--light button--large open-visit" type="button">Quero fazer parte <span>↗</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand brand--footer" href="#inicio">
+        <img src="assets/logo-fit-house.png" alt="Logo Fit House" />
+        <span><strong>FIT HOUSE</strong><small>ACADEMIA</small></span>
+      </a>
+      <p>Saúde para todos. Estrutura para campeões.</p>
+      <div class="footer-social">
+        <a href="https://instagram.com/acadfithouse" target="_blank" rel="noopener">Instagram ↗</a>
+        <a href="https://wa.me/5549998060286" target="_blank" rel="noopener">WhatsApp ↗</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="currentYear"></span> Fit House Academia.</span>
+      <span>Anita Garibaldi · Santa Catarina</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5549998060286?text=Olá%20Fit%20House!%20Gostaria%20de%20conhecer%20a%20academia." target="_blank" rel="noopener" aria-label="Falar com a Fit House pelo WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M19.11 17.42c-.28-.14-1.66-.82-1.92-.91-.26-.09-.45-.14-.64.14-.19.28-.73.91-.9 1.1-.16.19-.33.21-.61.07-.28-.14-1.18-.43-2.24-1.39-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.64-1.54-.87-2.11-.23-.55-.47-.48-.64-.49h-.54c-.19 0-.49.07-.75.35-.26.28-.99.97-.99 2.36 0 1.39 1.01 2.73 1.15 2.92.14.19 1.99 3.04 4.82 4.26.67.29 1.2.46 1.61.59.68.22 1.29.19 1.78.12.54-.08 1.66-.68 1.9-1.34.23-.66.23-1.22.16-1.34-.07-.12-.26-.19-.54-.33ZM16.05 4.8c-6.15 0-11.14 4.98-11.14 11.13 0 1.96.51 3.88 1.47 5.57L4.82 27.2l5.84-1.53a11.12 11.12 0 0 0 5.39 1.37h.01c6.14 0 11.14-4.99 11.14-11.13 0-2.97-1.16-5.77-3.26-7.87A11.05 11.05 0 0 0 16.05 4.8Zm0 20.36h-.01c-1.66 0-3.29-.45-4.71-1.29l-.34-.2-3.46.91.92-3.37-.22-.35a9.24 9.24 0 0 1-1.42-4.93c0-5.09 4.15-9.23 9.25-9.23 2.47 0 4.79.96 6.53 2.71a9.18 9.18 0 0 1 2.7 6.53c0 5.09-4.15 9.23-9.24 9.23Z"/></svg>
+    <span>Fale com a Fit House</span>
+  </a>
+
+  <dialog class="visit-modal" id="visitModal">
+    <form class="visit-card" id="visitForm" method="dialog">
+      <button class="modal-close" type="button" id="closeVisit" aria-label="Fechar">×</button>
+      <span class="eyebrow">Agende uma visita</span>
+      <h2>Venha sentir a energia da Fit House.</h2>
+      <p>Preencha os dados e vamos abrir uma conversa no WhatsApp da academia.</p>
+      <label>
+        <span>Seu nome</span>
+        <input id="visitorName" name="name" type="text" placeholder="Como podemos chamar você?" required />
+      </label>
+      <label>
+        <span>Seu principal objetivo</span>
+        <select id="visitorGoal" name="goal" required>
+          <option value="">Selecione uma opção</option>
+          <option>Melhorar minha saúde</option>
+          <option>Ganhar massa muscular</option>
+          <option>Emagrecer e definir</option>
+          <option>Começar a treinar</option>
+          <option>Preparação para competição</option>
+          <option>Conhecer a estrutura</option>
+        </select>
+      </label>
+      <button class="button button--primary button--full" type="submit">Continuar pelo WhatsApp <span>↗</span></button>
+      <small>Você será direcionado para o WhatsApp oficial da Fit House.</small>
+    </form>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox">
+    <button type="button" id="closeLightbox" aria-label="Fechar imagem">×</button>
+    <img id="lightboxImage" alt="Imagem ampliada da Fit House" />
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
